@@ -1,0 +1,52 @@
+.headerdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+    background-color: darkslategrey;
+    color: white;
+    font-size: 24px;
+    
+}
+
+.leftsidebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    height: 700px;
+    background-color: darkcyan;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.rightsidebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 700px;
+    width: 900px;
+    background-color: cyan;
+    color: white;
+    
+    
+}
+
+.wrapper {
+    display: flex;
+    
+
+}
+
+.footerdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+    background-color: darkslategrey;
+    color: white;
+    font-size: 24px;
+    
+}
