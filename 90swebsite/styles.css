@@ -1,0 +1,70 @@
+.headerdiv {
+    height:40px;
+    background-color: aquamarine;
+    text-align: center;
+    
+}
+
+.headerdiv > h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.asidediv {
+    display: flex;
+    width: 250px;
+    height: 575px;
+    background-color: aqua;
+    flex-direction: column;
+    
+}
+
+button {
+    background-color:cadetblue;
+    width: 115px;
+}
+
+a {
+    color: firebrick;
+    font-style: bold;
+    font-size: 18px;
+}
+
+a:hover {
+    color: white;
+}
+
+.maindiv {
+    display: flex;   
+    height: 287px;
+    width: 1200px;
+    background-color: cornflowerblue;
+    flex-direction: row;
+}
+
+aside, main {
+    display:inline-block;
+    vertical-align: top;
+}
+
+
+body {
+    background-color: cornflowerblue;
+}
+
+img {
+    height: 287px;
+    width: 300px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.footerdiv {
+    height:40px;
+    background-color: aquamarine;
+    text-align: center;
+    
+}
